@@ -1,0 +1,4 @@
+<p>At <%= friendly_date comment.created_at%> <%= link_to comment.author, "mailto: "+ (comment.email||"") %> said: </p>
+<blockquote>
+	<%= comment.body %>
+</blockquote>
