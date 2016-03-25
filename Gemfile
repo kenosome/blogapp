@@ -8,7 +8,7 @@ gem 'sqlite3', group: [:development,:test]
 #Postgres
 gem 'pg', group: :production
 #Rails_12factor
-gem 'Rails_12factor', group: :production
+gem 'rails_12factor', group: :production
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
